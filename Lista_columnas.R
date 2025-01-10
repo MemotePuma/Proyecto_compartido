@@ -35,7 +35,7 @@ for(i in 1:length(BD)){
 
 
 
-write.xlsx(data.frame(df_columna), file=paste("D:/DBAProy/ISSSTE","Columnas_AX4.xlsx",sep="/"), sheetName="COLUMNAS",col.names=TRUE, row.names=F
+write.xlsx(data.frame(df_columna), file=paste("D:/DBAProy/ISSSTE","Columnas_AX4.xlsx",sep="/"), sheetName="COLUMNAS",col.names=TRUE, row.names=F)
 
 
 
